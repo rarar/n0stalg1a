@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: n0stalg1a
+  host: n0stalg1a
+  disk_quota: 1024M
+  services:
+  - Speech to Text-k9
+  - Internet of Things Platform-yb
